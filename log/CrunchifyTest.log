@@ -1,0 +1,94 @@
+2018-11-22 19:15:58 [Thread-1] INFO  log:186 - Logging initialized @691ms
+2018-11-22 19:15:58 [Thread-1] INFO  EmbeddedJettyServer:126 - == Spark has ignited ...
+2018-11-22 19:15:58 [Thread-1] INFO  EmbeddedJettyServer:127 - >> Listening on 0.0.0.0:4567
+2018-11-22 19:15:58 [Thread-1] INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2018-11-22 19:15:58 [Thread-1] ERROR EmbeddedJettyServer:133 - ignite failed
+java.net.BindException: Adres zaten kullanımda
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_171]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:1.8.0_171]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:1.8.0_171]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[?:1.8.0_171]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[?:1.8.0_171]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:326) ~[myDemoApp-1.0-SNAPSHOT.jar:?]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[myDemoApp-1.0-SNAPSHOT.jar:?]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:244) ~[myDemoApp-1.0-SNAPSHOT.jar:?]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[myDemoApp-1.0-SNAPSHOT.jar:?]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:384) ~[myDemoApp-1.0-SNAPSHOT.jar:?]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[myDemoApp-1.0-SNAPSHOT.jar:?]
+	at spark.embeddedserver.jetty.EmbeddedJettyServer.ignite(EmbeddedJettyServer.java:129) ~[myDemoApp-1.0-SNAPSHOT.jar:?]
+	at spark.Service.lambda$init$1(Service.java:452) ~[myDemoApp-1.0-SNAPSHOT.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_171]
+2018-11-22 19:33:36 [Thread-1] INFO  log:186 - Logging initialized @579ms
+2018-11-22 19:33:36 [Thread-1] INFO  EmbeddedJettyServer:126 - == Spark has ignited ...
+2018-11-22 19:33:36 [Thread-1] INFO  EmbeddedJettyServer:127 - >> Listening on 0.0.0.0:4567
+2018-11-22 19:33:36 [Thread-1] INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2018-11-22 19:33:36 [Thread-1] ERROR EmbeddedJettyServer:133 - ignite failed
+java.net.BindException: Adres zaten kullanımda
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_171]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:1.8.0_171]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:1.8.0_171]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[?:1.8.0_171]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[?:1.8.0_171]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:326) ~[myDemoApp-1.0-SNAPSHOT.jar:?]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[myDemoApp-1.0-SNAPSHOT.jar:?]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:244) ~[myDemoApp-1.0-SNAPSHOT.jar:?]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[myDemoApp-1.0-SNAPSHOT.jar:?]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:384) ~[myDemoApp-1.0-SNAPSHOT.jar:?]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[myDemoApp-1.0-SNAPSHOT.jar:?]
+	at spark.embeddedserver.jetty.EmbeddedJettyServer.ignite(EmbeddedJettyServer.java:129) ~[myDemoApp-1.0-SNAPSHOT.jar:?]
+	at spark.Service.lambda$init$1(Service.java:452) ~[myDemoApp-1.0-SNAPSHOT.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_171]
+2018-11-22 19:37:25 [Thread-1] INFO  log:186 - Logging initialized @1289ms
+2018-11-22 19:37:25 [Thread-1] INFO  EmbeddedJettyServer:126 - == Spark has ignited ...
+2018-11-22 19:37:25 [Thread-1] INFO  EmbeddedJettyServer:127 - >> Listening on 0.0.0.0:4567
+2018-11-22 19:37:25 [Thread-1] INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2018-11-22 19:37:25 [Thread-1] INFO  ServerConnector:270 - Started ServerConnector@7a70ebf{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+2018-11-22 19:37:25 [Thread-1] INFO  Server:397 - Started @1398ms
+2018-11-22 19:39:22 [Thread-1] INFO  log:186 - Logging initialized @620ms
+2018-11-22 19:39:22 [Thread-1] INFO  EmbeddedJettyServer:126 - == Spark has ignited ...
+2018-11-22 19:39:22 [Thread-1] INFO  EmbeddedJettyServer:127 - >> Listening on 0.0.0.0:4567
+2018-11-22 19:39:22 [Thread-1] INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2018-11-22 19:39:22 [Thread-1] INFO  ServerConnector:270 - Started ServerConnector@7a70ebf{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+2018-11-22 19:39:22 [Thread-1] INFO  Server:397 - Started @698ms
+2018-11-22 19:40:33 [Thread-1] INFO  log:186 - Logging initialized @596ms
+2018-11-22 19:40:33 [Thread-1] INFO  EmbeddedJettyServer:126 - == Spark has ignited ...
+2018-11-22 19:40:33 [Thread-1] INFO  EmbeddedJettyServer:127 - >> Listening on 0.0.0.0:4567
+2018-11-22 19:40:33 [Thread-1] INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2018-11-22 19:40:33 [Thread-1] INFO  ServerConnector:270 - Started ServerConnector@6f36470c{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+2018-11-22 19:40:33 [Thread-1] INFO  Server:397 - Started @676ms
+2018-11-22 19:41:17 [Thread-1] INFO  log:186 - Logging initialized @573ms
+2018-11-22 19:41:17 [Thread-1] INFO  EmbeddedJettyServer:126 - == Spark has ignited ...
+2018-11-22 19:41:17 [Thread-1] INFO  EmbeddedJettyServer:127 - >> Listening on 0.0.0.0:4567
+2018-11-22 19:41:17 [Thread-1] INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2018-11-22 19:41:17 [Thread-1] INFO  ServerConnector:270 - Started ServerConnector@65dc9077{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+2018-11-22 19:41:17 [Thread-1] INFO  Server:397 - Started @667ms
+2018-11-22 19:42:52 [Thread-1] INFO  log:186 - Logging initialized @566ms
+2018-11-22 19:42:52 [Thread-1] INFO  EmbeddedJettyServer:126 - == Spark has ignited ...
+2018-11-22 19:42:52 [Thread-1] INFO  EmbeddedJettyServer:127 - >> Listening on 0.0.0.0:4567
+2018-11-22 19:42:52 [Thread-1] INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2018-11-22 19:42:52 [Thread-1] INFO  ServerConnector:270 - Started ServerConnector@6852a021{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+2018-11-22 19:42:52 [Thread-1] INFO  Server:397 - Started @652ms
+2018-11-22 19:50:49 [Thread-1] INFO  log:186 - Logging initialized @563ms
+2018-11-22 19:50:49 [Thread-1] INFO  EmbeddedJettyServer:126 - == Spark has ignited ...
+2018-11-22 19:50:49 [Thread-1] INFO  EmbeddedJettyServer:127 - >> Listening on 0.0.0.0:4567
+2018-11-22 19:50:49 [Thread-1] INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2018-11-22 19:50:50 [Thread-1] INFO  ServerConnector:270 - Started ServerConnector@71cc5835{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+2018-11-22 19:50:50 [Thread-1] INFO  Server:397 - Started @662ms
+2018-11-22 21:05:46 [Thread-1] INFO  log:186 - Logging initialized @563ms
+2018-11-22 21:05:46 [Thread-1] INFO  EmbeddedJettyServer:126 - == Spark has ignited ...
+2018-11-22 21:05:46 [Thread-1] INFO  EmbeddedJettyServer:127 - >> Listening on 0.0.0.0:4567
+2018-11-22 21:05:46 [Thread-1] INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2018-11-22 21:05:46 [Thread-1] INFO  ServerConnector:270 - Started ServerConnector@71cc5835{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+2018-11-22 21:05:46 [Thread-1] INFO  Server:397 - Started @644ms
+2018-11-23 01:00:19 [Thread-1] INFO  log:186 - Logging initialized @604ms
+2018-11-23 01:00:19 [Thread-1] INFO  EmbeddedJettyServer:126 - == Spark has ignited ...
+2018-11-23 01:00:19 [Thread-1] INFO  EmbeddedJettyServer:127 - >> Listening on 0.0.0.0:4567
+2018-11-23 01:00:19 [Thread-1] INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2018-11-23 01:00:19 [Thread-1] INFO  ServerConnector:270 - Started ServerConnector@3d215a2{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+2018-11-23 01:00:19 [Thread-1] INFO  Server:397 - Started @693ms
+2018-11-23 22:20:03 [Thread-1] INFO  log:186 - Logging initialized @1219ms
+2018-11-23 22:20:03 [Thread-1] INFO  EmbeddedJettyServer:126 - == Spark has ignited ...
+2018-11-23 22:20:03 [Thread-1] INFO  EmbeddedJettyServer:127 - >> Listening on 0.0.0.0:4567
+2018-11-23 22:20:03 [Thread-1] INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2018-11-23 22:20:03 [Thread-1] INFO  ServerConnector:270 - Started ServerConnector@288c2674{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+2018-11-23 22:20:03 [Thread-1] INFO  Server:397 - Started @1357ms
